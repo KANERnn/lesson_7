@@ -23,5 +23,8 @@ public class Medic extends Hero{
         System.out.println("Medic применил суперспособность воскрешение");
     }
 
-
+    @Override
+    public String info() {
+        return super.info();
+    }
 }

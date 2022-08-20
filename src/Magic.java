@@ -9,4 +9,8 @@ public class Magic extends Hero{
         System.out.println("Magic применил суперспособность пламенный огонь");
     }
 
+    @Override
+    public String info() {
+        return super.info();
+    }
 }

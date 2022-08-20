@@ -28,4 +28,7 @@ public abstract class Hero implements HavingSuperAbility{
     }
 
     private String superAbility;
+    public String info() {
+        return getHp() + " " + getDamage();
+    }
 }
